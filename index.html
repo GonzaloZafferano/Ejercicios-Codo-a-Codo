@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Zafferano Gonzalo - Ejercicio obligatorio Bootstrap</title>
+    <style>
+        .img-size{
+            height: 300px !important;
+            width: 400px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-white">
+                <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="#">Codo a Codo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted disabled" href="#">Desactivado</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Buscar">
+                    <button class="btn btn-outline-primary " type="button">Buscar</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="d-flex flex-wrap justify-content-evenly">
+                <div class="card m-1">
+                    <img class="card-img-top img-size" src="Images/html.jpg" alt="Logo Html">
+                    <div class="card-body">
+                    <h4 class="card-title">titulo 1</h4>
+                    <p class="card-text">Contenido de card.</p>
+                    <p class="text-secondary">Ultima actualizacion 1</p>
+                    </div>
+                </div>
+                <div class="card m-1">
+                    <img class="card-img-top img-size" src="Images/css.png" alt="Logo Css">
+                    <div class="card-body">
+                    <h4 class="card-title">titulo 2</h4>
+                    <p class="card-text">Contenido de card.</p>
+                    <p class="text-secondary">Ultima actualizacion 1</p>
+                    </div>
+                </div>
+                <div class="card m-1">
+                    <img class="card-img-top img-size" src="Images/bootstrap.png" alt="Logo bootstrap">
+                    <div class="card-body">
+                    <h4 class="card-title">titulo 3</h4>
+                    <p class="card-text">Contenido de card.</p>
+                    <p class="text-secondary">Ultima actualizacion 1</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section>
+            <form action="">
+                <label for="mail" class="m-1">Email</label>
+                <input class="form-control d-block w-100 my-1" id="mail" name="mail" type="email">
+                <p class="fs-6 text-secondary">Nunca comparta su email</p>
+                <label for="clave" class="m-1">Contraseña</label>
+                <input class="form-control d-block w-100 my-1" id="clave" name="clave" type="password">
+                <input  type="checkbox" id="chk-verificar" class="my-2" value="Verificar">
+                <label for="chk-verificar" class="my-3">Verificar</label>
+                <input type="button" value="Enviar" class="btn btn-primary d-block">
+            </form>
+        </section>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
